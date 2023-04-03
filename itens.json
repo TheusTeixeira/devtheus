@@ -1,0 +1,18 @@
+let produtosJson = [
+    {
+    id:1,
+    nome:'Mouse'
+    img: '',
+    preco: 20.00,
+    tamanho:[],
+    descricao: 'Mouse gamer'
+},
+{
+    id:2,
+    nome:'Teclado'
+    img: '',
+    preco: 30.00,
+    tamanho:[],
+    descricao: 'Mouse gamer'
+}
+]
