@@ -1,6 +1,1 @@
-let produtosJson=[
-    {"id": 0,"nome":"Mouse","preço":72.00,}
-    {"id": 1,"nome":"Teclado","preço":56.00,}
-    {"id": 2,"nome":"Monitor","preço":782.00,}
-    {"id": 3,"nome":"Gabinete","preço":220.00,}
-]
+
