@@ -61,18 +61,18 @@ form input.operador{
 .heartbeat{animation:heartbeat 1.5s ease-in-out infinite both}
 
 @keyframes heartbeat{from{transform:scale(1);transform-origin:center center;animation-timing-function:ease-out}10%{transform:scale(.91);animation-timing-function:ease-in}17%{transform:scale(.98);animation-timing-function:ease-out}33%{transform:scale(.87);animation-timing-function:ease-in}45%{transform:scale(1);animation-timing-function:ease-out}}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 270px) {
 
     .container {
-        max-width: 100%;
-        padding: 10px;
+        max-width:50%;
+        padding: 5px;
     }
     
     .calculadora {
-        max-width: 100%;
+        max-width: 50%;
     }
     
     .operador {
-        width: 50%;
+        width: 25%;
     }
 }
