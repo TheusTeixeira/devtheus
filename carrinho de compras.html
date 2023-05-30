@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/stylecarr.css">
+  <title>Site de Compras - Carrinho</title>
+</head>
+<body>
+  <header>
+    <h1>Site de Compras</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="carrinho.html">Carrinho</a></li>
+        <li><a href="#">Conta</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Produtos</h2>
+      <div class="product">
+        <img src="caminho_para_a_imagem1.jpg" alt="Nome do Produto 1">
+        <h3>Nome do Produto 1</h3>
+        <p>Descrição do produto 1.</p>
+        <p>Preço: R$19,99</p>
+        <button onclick="adicionarAoCarrinho('Nome do Produto 1', 19.99)">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="product">
+        <img src="caminho_para_a_imagem2.jpg" alt="Nome do Produto 2">
+        <h3>Nome do Produto 2</h3>
+        <p>Descrição do produto 2.</p>
+        <p>Preço: R$29,99</p>
+        <button onclick="adicionarAoCarrinho('Nome do Produto 2', 29.99)">Adicionar ao Carrinho</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023</p>
+  </footer>
+  <script src="js/scriptpr.js"></script>
+
+</body>
+</html>
