@@ -1,0 +1,23 @@
+*{
+
+}
+body{
+    background-color: darkolivegreen;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+}
+span{
+    text-transform: uppercase;
+
+    position: absolute;
+}
+.caixa input:focus~span, .caixa input:valid ~span{
+    color: rgb(255, 255, 255);
+   transform: translateX(-60px) translateY(-11px);
+   background-color: rgb(138, 180, 98);
+   border-radius: 5px;
+   letter-spacing: 3px;
+   text-transform: lowercase;
+}
