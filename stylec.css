@@ -61,6 +61,7 @@ form input.operador{
 .heartbeat{animation:heartbeat 1.5s ease-in-out infinite both}
 
 @keyframes heartbeat{from{transform:scale(1);transform-origin:center center;animation-timing-function:ease-out}10%{transform:scale(.91);animation-timing-function:ease-in}17%{transform:scale(.98);animation-timing-function:ease-out}33%{transform:scale(.87);animation-timing-function:ease-in}45%{transform:scale(1);animation-timing-function:ease-out}}
+
 @media screen and (max-width: 300px) {
 
     .container {
@@ -76,6 +77,17 @@ form input.operador{
         max-width: 100%;
         height: 100%;
         border-radius: 0;
+
+@media screen and (max-width: 400px) {
+
+    .container {
+        max-width:50%;
+        padding: 5px;
+    }
+    
+    .calculadora {
+        max-width: 50%;
+>>>>>>> 420c75fbd22e9c66e55141098c5bc279d34f3edf
     }
     
 .calculadora form input{
@@ -92,6 +104,7 @@ form input.operador{
     margin: 1px;
 }
     .operador {
+
         width: 20px;
     }
 }
@@ -104,3 +117,7 @@ form .display input{
         display: flex;
         justify-content: flex-end;
         margin: 40px 0;}
+        width: 25%;
+    }
+}
+
