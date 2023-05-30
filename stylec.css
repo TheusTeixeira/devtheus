@@ -70,9 +70,8 @@ form input.operador{
     background: #000;
     display: block;
     align-items: center;
-    justify-content: center;
+    justify-content: center;}
 
-}
 .calculadora{
     background: #5c3;
     padding: 0px;
@@ -83,7 +82,24 @@ form input.operador{
     outline: 0;
     width: 45px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 10px;}
+
+.container {
+        max-width:100%;
+        padding: 0px;
+        display: block;
+    }
+    
+.calculadora {
+        max-width: 100%;
+    }
+    
+.calculadora form input{
+    border: 0;
+    outline: 0;
+    width: 30px;
+    height:30px;
+    border-radius: 5px;
     box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1),  5px 5px 15px rgb(0,0,0, 0.2);
     background: transparent;
     font-size: 20px;
