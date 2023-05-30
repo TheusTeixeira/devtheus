@@ -4,8 +4,10 @@
     height: 100vh;
     padding: 0;
     text-align: center;
+    text-size-adjust: auto;
     text-decoration: none;
     color: #27be22;
+    letter-spacing: 3px;
 }
 .heartbeat{animation:heartbeat 1.5s ease-in-out infinite both}
 
