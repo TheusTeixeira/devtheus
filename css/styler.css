@@ -1,145 +1,57 @@
-*{font-size: 20x;
-    text-decoration: none;
-    color: #fff;
+/* Reset de estilos */
+* {
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body{
+    box-sizing: border-box;
+  }
+  
+  /* Estilo global */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Estilo do relógio */
+  .relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    background: linear-gradient(#061600,rgb(0, 0, 0));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.relogio{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
-    width: 550px;
-    background: transparent;
-    border-radius:  3px; 
-    box-shadow: 0px 8px 10px, rgba(0,0,0,.5);
-}
-.relogio div{
-    height: 170px;
-    width: 150px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-box-shadow: 5px 5px 15px rgba(5,5,5,.7);
-border-radius: 7px;
-letter-spacing: 3px;
+    background-color: #4CAF50;
+    font-size: 40px;
+  }
+  
+  .relogio div {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .relogio span {
+    display: block;
+    font-size: 80px;
     color: #fff;
-    background: rgb(5,5,5,.9);
-
-}
-.relogio span{
-    font-weight: bolder;
-    
-
-}
-.relogio span.tempo{
-    font-size: 10px;
-
-}
-@media only screen and (max-device-width: 400px) and (max-device-height: 600px) {
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    body{
-        height: 100vh;
-        background: linear-gradient(#061600,rgb(0, 0, 0));
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-    .relogio{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 200px;
-        width: 300px;
-        background: transparent;
-        border-radius:  3px; 
-        box-shadow: 0px 8px 10px, rgba(0,0,0,.5);
-    }
-    .relogio div{
-        height: 150px;
-        width:100px;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    box-shadow: 5px 5px 15px rgba(5,5,5,.7);
-    border-radius: 7px;
-    letter-spacing: 5px;
-        color: #fff;
-        background: rgb(5,5,5,.9);
-    
-    }
-    .relogio span{
-        font-weight: bolder;
-        
-    
-    }
-    .relogio span.tempo{
-        font-size: 11px;
-    
-    }
-}
-
-@media only screen and (max-device-width: 260px) and (max-device-height: 500px) {
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    body{
-        height: 100vh;
-        background: linear-gradient(#061600,rgb(0, 0, 0));
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-    .relogio{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 100px;
-        width: 100px;
-        background: transparent;
-        border-radius:  3px; 
-        box-shadow: 0px 8px 10px, rgba(0,0,0,.5);
-    }
-    .relogio div{
-        height: 50px;
-        width:50px;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    box-shadow: 5px 5px 15px rgba(5,5,5,.7);
-    border-radius: 7px;
-    letter-spacing: 5px;
-        color: #fff;
-        background: rgb(5,5,5,.9);
-    
-    }
-    .relogio span{
-        font-weight: bolder;
-        
-    
-    }
-    .relogio span.tempo{
-        font-size: 5px;
-    
-    }
-}
+  }
+  
+  .relogio .tempo {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  /* Estilo do link de retorno */
+  .ha {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .ha a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 18px;
+  }
+  
+  .ha a:hover {
+    text-decoration: underline;
+  }
+  
