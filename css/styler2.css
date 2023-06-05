@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(198, 221, 197);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.relogio{
+    background-color: rgb(113, 172, 145);
+    width: 500px;
+    height: 500px;
+    border-radius:50% ;
+    border: 2px solid;
+    position: relative;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+.relogio .numeros{
+--rot:0;
+
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ transform: rotate(var(--rot));
+}
+.relogio .numeros.numeros1{
+    --rot: 30deg;
+    
+}
+.relogio .numeros.numeros2{
+    --rot: 60deg;
+    
+}
+.relogio .numeros.numeros3{
+    --rot: 90deg;
+    
+}
+.relogio .numeros.numeros4{
+    --rot: 120deg;
+    
+}
+.relogio .numeros.numeros5{
+    --rot: 150deg;
+    
+}
+.relogio .numeros.numeros6{
+    --rot: 180deg;
+    
+}
+.relogio .numeros.numeros7{
+    --rot: 210deg;
+    
+}
+.relogio .numeros.numeros8{
+    --rot: 240deg;
+    
+}
+.relogio .numeros.numeros9{
+    --rot: 270deg;
+    
+}
+.relogio .numeros.numeros10{
+    --rot: 300deg;
+    
+}
+.relogio .numeros.numeros11{
+    --rot: 330deg;
+    
+}
+/* ponteiros */
+.relogio::after{
+    content:"" ;
+position: absolute;
+width: 10px;
+height: 10px;
+top: 50%;
+left: 50%;
+border-radius: 50%;
+transform: translate(-50%, -50%);
+z-index: 10;
+background-color:rgb(0, 0, 0) ;
+}
+
+.relogio .ponteiro{
+    --rot:0;
+    
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    z-index: 10;
+    transform-origin: bottom;
+    transform:translateX(-50%) rotate(calc(var(--rot)*1deg));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.relogio .ponteiro.seg{
+    width: 3px;
+    height: 40%;
+    background-color: brown;
+
+}
+.relogio .ponteiro.min{
+    background-color: rgb(0, 0, 0);
+    width: 7px;
+    height: 35%;
+    
+}
+.relogio .ponteiro.hr{
+  
+    width: 10px;
+    height: 25%;
+    background-color: rgb(0, 0, 0);
+}
+.relogio .dig{
+    background-color: rgb(222, 255, 240);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    position:absolute;
+    z-index: 0;
+    justify-content: center;
+    border: 0.5px solid;
+    font-size: 15px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+.relogio .dig.horas{
+    display: flex;
+    transform: translate(200px, 300px);
+    z-index: 0;
+}
+.relogio .dig.minutos{
+    display: flex;
+    transform: translate(240px, 300px);
+    z-index: 0;
+}
+.relogio .dig.segundos{
+    display: flex;
+    transform: translate(280px, 300px);
+    z-index: 0;
+}
