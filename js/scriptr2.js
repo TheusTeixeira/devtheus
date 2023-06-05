@@ -1,3 +1,9 @@
+const divVoltar = document.getElementsByClassName("relogio")[0];
+divVoltar.addEventListener("click", function(){
+  window.location.href = "https://theusteixeira.github.io/devtheus/";
+});
+
+
 const ponteiroHoras = document.querySelector(".ponteiro.hr");
 const ponteiroMinutos = document.querySelector(".ponteiro.min");
 const ponteiroSegundos = document.querySelector(".ponteiro.seg");
