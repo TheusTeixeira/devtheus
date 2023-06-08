@@ -1,0 +1,72 @@
+*{
+    margin: 0;padding: 0;  outline: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border: none
+}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;800&family=Pacifico&display=swap');
+body{
+    background-color: rgb(174, 236, 177);
+    font-family: 'EB Garamond', serif;
+}
+.bdark#body{
+    background-color: rgb(11, 20, 7);
+    font-family: 'EB Garamond', serif;
+}
+form{
+    background-color: rgb(98, 172, 138);
+    max-width: 500px;
+    max-height: 500px;
+    height: 50%;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 10px 60px;
+   
+}
+form input{
+    margin: 5px 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    text-align:center;
+   
+}
+form input[type=submit]{
+    background-color: rgb(174, 236, 177);
+  
+    cursor: pointer;
+    
+}
+.text{
+    text-transform: capitalize;
+}
+.text:hover{
+    text-transform: uppercase;
+}
+form input[type=submit]:hover{
+    background-color:  rgb(80, 145, 115); color: rgb(174, 236, 177);
+    
+}
+i#user{
+    transform: translate(-15px, 40px);
+}
+i#sen{
+    transform: translate(-15px, 40px)
+}
+form h3{text-align: center; color:rgb(174, 236, 177); margin: 15px 0px;}
+#mode{cursor: pointer;}
+.dark#form{
+    background-color: rgb(31, 58, 39);
+    animation: ;
+}
+.fa-moon{
+    color:  rgb(31, 58, 39);
+}
+.fa-sun{
+    color:rgb(174, 236, 177);
+}
